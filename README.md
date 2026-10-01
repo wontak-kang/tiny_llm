@@ -30,6 +30,14 @@ python compare.py "The dragon was very hungry."   # A/B/C 를 같은 시드로 �
   `gen.py --list` 에도 fp16 인 C 는 나오지 않습니다.
 - Windows 콘솔에서 글자가 깨지거나 오류가 나면 `PYTHONIOENCODING=utf-8` 을 붙여 실행하세요.
 
+### ChatGPT 등 인터넷이 막힌 실행 환경에서 돌리기
+
+[Releases](https://github.com/wontak-kang/tiny_llm/releases/latest) 의 `tiny_llm_C.zip`(54MB)을 받아
+채팅창에 그대로 업로드하면 됩니다. C 모델 실행에 필요한 4개 파일
+(`model.py`, `gen.py`, `tok/sp4000.model`, `runs/.../ckpt_fp16.pt`)만 들어 있고, CPU 로도 돌아갑니다.
+압축을 풀고 `tiny_llm_C/` 안에서 `python gen.py -r C "Lily and Tom"` 처럼 실행합니다.
+실행 환경에 `torch` 와 `sentencepiece` 가 설치되어 있어야 합니다.
+
 ## 처음부터 학습하기
 
 ```bash
