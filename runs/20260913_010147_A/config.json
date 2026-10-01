@@ -1,0 +1,20 @@
+{
+  "preset": "A",
+  "params": 1266816,
+  "params_no_emb": 754816,
+  "total_steps": 1586,
+  "tokens_per_step": 16384,
+  "base_lr": 0.003,
+  "warmup": 31,
+  "device": "cuda",
+  "vocab_size": 4000,
+  "d_model": 128,
+  "n_head": 4,
+  "n_layer": 4,
+  "seq_len": 512,
+  "tie_embedding": true,
+  "seed": 1234,
+  "no_ffn": false,
+  "best_val_loss": 2.0422878324985505,
+  "minutes": 1.236526354153951
+}

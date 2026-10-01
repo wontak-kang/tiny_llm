@@ -1,0 +1,5 @@
+__pycache__/
+data/*
+!data/dl.sh
+# C 의 fp32 원본은 100MB 초과라 제외 (ckpt_fp16.pt 만 올림)
+runs/20260913_014021_C/ckpt.pt

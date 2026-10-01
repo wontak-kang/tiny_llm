@@ -1,0 +1,27 @@
+run     : runs\20260913_010147_A
+params  : 1,266,816  (임베딩 제외 754,816)
+steps   : 1,586 x 16,384 토큰 = 26M
+lr      : 0.003  warmup 31
+초기loss 기대값: ln(4000) = 8.294
+data    : train 545.6M / val 5.5M 토큰
+step      0/1586  train 8.309  val 8.243  lr 9.68e-05  23,943 tok/s  1s
+step    100/1586  train 3.972  val 3.926  lr 2.99e-03  300,487 tok/s  6s
+step    200/1586  train 3.208  val 3.157  lr 2.92e-03  326,526 tok/s  10s
+step    300/1586  train 2.828  val 2.809  lr 2.81e-03  336,283 tok/s  15s
+step    400/1586  train 2.662  val 2.643  lr 2.64e-03  341,334 tok/s  19s
+step    500/1586  train 2.497  val 2.496  lr 2.44e-03  344,539 tok/s  24s
+step    600/1586  train 2.456  val 2.395  lr 2.20e-03  345,983 tok/s  28s
+step    700/1586  train 2.367  val 2.294  lr 1.94e-03  347,418 tok/s  33s
+step    800/1586  train 2.285  val 2.268  lr 1.67e-03  348,460 tok/s  38s
+step    900/1586  train 2.181  val 2.202  lr 1.40e-03  349,407 tok/s  42s
+step   1000/1586  train 2.169  val 2.157  lr 1.14e-03  350,153 tok/s  47s
+step   1100/1586  train 2.100  val 2.118  lr 9.00e-04  350,864 tok/s  51s
+step   1200/1586  train 2.114  val 2.098  lr 6.90e-04  351,247 tok/s  56s
+step   1300/1586  train 2.130  val 2.090  lr 5.19e-04  351,561 tok/s  61s
+step   1400/1586  train 2.179  val 2.060  lr 3.94e-04  351,901 tok/s  65s
+step   1500/1586  train 2.058  val 2.042  lr 3.20e-04  352,152 tok/s  70s
+step   1585/1586  train 2.116  val 2.050  lr 3.00e-04  352,020 tok/s  74s
+
+완료: 1.2분, best val loss 2.0423
+최종 샘플:
+Once upon a time, there was a little girl named Lily. She loved to decorate her room, making the kitchen. One day, she found a big, red ball. She wanted to show it to her friend, Sam. Lily said, "Let's unpack your toys, Sam. We can use the ball to build the kitchen. We can put them on." Sam agreed, and they both bought the big, red ball. They used the big red ball to build a big house. But when they were done, they saw a cat. The cat was on the table. The cat said, "

@@ -1,0 +1,101 @@
+run     : runs\20260913_011647_B
+params  : 7,450,880  (임베딩 제외 6,426,880)
+steps   : 8,972 x 16,384 토큰 = 147M
+lr      : 0.003  warmup 179
+초기loss 기대값: ln(4000) = 8.294
+data    : train 545.6M / val 5.5M 토큰
+step      0/8972  train 8.328  val 8.289  lr 1.68e-05  12,556 tok/s  1s
+step    100/8972  train 3.991  val 3.944  lr 1.69e-03  94,337 tok/s  18s
+step    200/8972  train 2.996  val 2.936  lr 3.00e-03  98,500 tok/s  33s
+step    300/8972  train 2.564  val 2.545  lr 3.00e-03  99,778 tok/s  49s
+step    400/8972  train 2.393  val 2.374  lr 3.00e-03  100,694 tok/s  65s
+step    500/8972  train 2.227  val 2.227  lr 2.99e-03  100,784 tok/s  81s
+step    600/8972  train 2.190  val 2.124  lr 2.98e-03  101,067 tok/s  97s
+step    700/8972  train 2.098  val 2.044  lr 2.98e-03  101,330 tok/s  113s
+step    800/8972  train 2.031  val 2.017  lr 2.97e-03  101,454 tok/s  129s
+step    900/8972  train 1.938  val 1.962  lr 2.96e-03  101,621 tok/s  145s
+step   1000/8972  train 1.935  val 1.921  lr 2.94e-03  101,705 tok/s  161s
+step   1100/8972  train 1.861  val 1.883  lr 2.93e-03  101,829 tok/s  177s
+step   1200/8972  train 1.910  val 1.870  lr 2.91e-03  101,949 tok/s  193s
+step   1300/8972  train 1.896  val 1.856  lr 2.89e-03  102,034 tok/s  209s
+step   1400/8972  train 1.927  val 1.828  lr 2.87e-03  102,100 tok/s  225s
+step   1500/8972  train 1.815  val 1.800  lr 2.85e-03  102,129 tok/s  241s
+step   1600/8972  train 1.811  val 1.806  lr 2.83e-03  102,208 tok/s  257s
+step   1700/8972  train 1.769  val 1.766  lr 2.81e-03  102,276 tok/s  272s
+step   1800/8972  train 1.624  val 1.766  lr 2.78e-03  102,318 tok/s  288s
+step   1900/8972  train 1.692  val 1.733  lr 2.75e-03  102,345 tok/s  304s
+step   2000/8972  train 1.718  val 1.743  lr 2.72e-03  102,371 tok/s  320s
+step   2100/8972  train 1.637  val 1.734  lr 2.69e-03  102,351 tok/s  336s
+step   2200/8972  train 1.713  val 1.703  lr 2.66e-03  102,385 tok/s  352s
+step   2300/8972  train 1.782  val 1.708  lr 2.63e-03  102,422 tok/s  368s
+step   2400/8972  train 1.681  val 1.711  lr 2.60e-03  102,478 tok/s  384s
+step   2500/8972  train 1.660  val 1.686  lr 2.56e-03  102,524 tok/s  400s
+step   2600/8972  train 1.661  val 1.670  lr 2.53e-03  102,537 tok/s  416s
+step   2700/8972  train 1.644  val 1.661  lr 2.49e-03  102,561 tok/s  431s
+step   2800/8972  train 1.725  val 1.675  lr 2.45e-03  102,599 tok/s  447s
+step   2900/8972  train 1.682  val 1.642  lr 2.41e-03  102,644 tok/s  463s
+step   3000/8972  train 1.659  val 1.637  lr 2.37e-03  102,669 tok/s  479s
+step   3100/8972  train 1.661  val 1.652  lr 2.33e-03  102,706 tok/s  495s
+step   3200/8972  train 1.589  val 1.653  lr 2.29e-03  102,753 tok/s  510s
+step   3300/8972  train 1.585  val 1.607  lr 2.24e-03  102,803 tok/s  526s
+step   3400/8972  train 1.704  val 1.621  lr 2.20e-03  102,842 tok/s  542s
+step   3500/8972  train 1.563  val 1.603  lr 2.16e-03  102,900 tok/s  557s
+step   3600/8972  train 1.583  val 1.593  lr 2.11e-03  102,954 tok/s  573s
+step   3700/8972  train 1.602  val 1.597  lr 2.07e-03  103,003 tok/s  589s
+step   3800/8972  train 1.573  val 1.597  lr 2.02e-03  103,066 tok/s  604s
+step   3900/8972  train 1.555  val 1.580  lr 1.97e-03  103,132 tok/s  620s
+step   4000/8972  train 1.554  val 1.584  lr 1.93e-03  103,185 tok/s  635s
+step   4100/8972  train 1.568  val 1.573  lr 1.88e-03  103,246 tok/s  651s
+step   4200/8972  train 1.517  val 1.556  lr 1.83e-03  103,291 tok/s  666s
+step   4300/8972  train 1.591  val 1.559  lr 1.78e-03  103,348 tok/s  682s
+step   4400/8972  train 1.592  val 1.564  lr 1.73e-03  103,395 tok/s  697s
+step   4500/8972  train 1.525  val 1.560  lr 1.69e-03  103,442 tok/s  713s
+step   4600/8972  train 1.597  val 1.547  lr 1.64e-03  103,491 tok/s  728s
+step   4700/8972  train 1.623  val 1.544  lr 1.59e-03  103,528 tok/s  744s
+step   4800/8972  train 1.561  val 1.543  lr 1.54e-03  103,566 tok/s  760s
+step   4900/8972  train 1.568  val 1.543  lr 1.49e-03  103,605 tok/s  775s
+step   5000/8972  train 1.536  val 1.519  lr 1.45e-03  103,643 tok/s  791s
+step   5100/8972  train 1.602  val 1.524  lr 1.40e-03  103,679 tok/s  806s
+step   5200/8972  train 1.513  val 1.516  lr 1.35e-03  103,717 tok/s  822s
+step   5300/8972  train 1.516  val 1.502  lr 1.30e-03  103,749 tok/s  837s
+step   5400/8972  train 1.501  val 1.505  lr 1.26e-03  103,779 tok/s  853s
+step   5500/8972  train 1.538  val 1.492  lr 1.21e-03  103,806 tok/s  868s
+step   5600/8972  train 1.429  val 1.496  lr 1.17e-03  103,831 tok/s  884s
+step   5700/8972  train 1.471  val 1.500  lr 1.12e-03  103,856 tok/s  899s
+step   5800/8972  train 1.478  val 1.474  lr 1.08e-03  103,883 tok/s  915s
+step   5900/8972  train 1.474  val 1.497  lr 1.03e-03  103,906 tok/s  930s
+step   6000/8972  train 1.462  val 1.478  lr 9.92e-04  103,931 tok/s  946s
+step   6100/8972  train 1.527  val 1.491  lr 9.51e-04  103,948 tok/s  962s
+step   6200/8972  train 1.484  val 1.460  lr 9.10e-04  103,973 tok/s  977s
+step   6300/8972  train 1.438  val 1.466  lr 8.70e-04  103,991 tok/s  993s
+step   6400/8972  train 1.464  val 1.472  lr 8.31e-04  104,013 tok/s  1008s
+step   6500/8972  train 1.479  val 1.452  lr 7.93e-04  104,034 tok/s  1024s
+step   6600/8972  train 1.454  val 1.447  lr 7.56e-04  104,054 tok/s  1039s
+step   6700/8972  train 1.493  val 1.447  lr 7.21e-04  104,075 tok/s  1055s
+step   6800/8972  train 1.459  val 1.445  lr 6.86e-04  104,095 tok/s  1070s
+step   6900/8972  train 1.448  val 1.441  lr 6.53e-04  104,111 tok/s  1086s
+step   7000/8972  train 1.468  val 1.447  lr 6.21e-04  104,126 tok/s  1102s
+step   7100/8972  train 1.413  val 1.444  lr 5.91e-04  104,146 tok/s  1117s
+step   7200/8972  train 1.443  val 1.418  lr 5.62e-04  104,163 tok/s  1133s
+step   7300/8972  train 1.394  val 1.423  lr 5.34e-04  104,183 tok/s  1148s
+step   7400/8972  train 1.401  val 1.417  lr 5.07e-04  104,204 tok/s  1164s
+step   7500/8972  train 1.459  val 1.414  lr 4.82e-04  104,219 tok/s  1179s
+step   7600/8972  train 1.454  val 1.415  lr 4.59e-04  104,232 tok/s  1195s
+step   7700/8972  train 1.452  val 1.412  lr 4.37e-04  104,249 tok/s  1210s
+step   7800/8972  train 1.376  val 1.410  lr 4.17e-04  104,259 tok/s  1226s
+step   7900/8972  train 1.439  val 1.426  lr 3.98e-04  104,271 tok/s  1241s
+step   8000/8972  train 1.465  val 1.401  lr 3.81e-04  104,287 tok/s  1257s
+step   8100/8972  train 1.379  val 1.398  lr 3.65e-04  104,300 tok/s  1273s
+step   8200/8972  train 1.443  val 1.409  lr 3.51e-04  104,311 tok/s  1288s
+step   8300/8972  train 1.333  val 1.394  lr 3.39e-04  104,328 tok/s  1304s
+step   8400/8972  train 1.393  val 1.387  lr 3.28e-04  104,338 tok/s  1319s
+step   8500/8972  train 1.408  val 1.404  lr 3.19e-04  104,348 tok/s  1335s
+step   8600/8972  train 1.409  val 1.422  lr 3.12e-04  104,361 tok/s  1350s
+step   8700/8972  train 1.374  val 1.390  lr 3.06e-04  104,374 tok/s  1366s
+step   8800/8972  train 1.415  val 1.387  lr 3.03e-04  104,380 tok/s  1381s
+step   8900/8972  train 1.427  val 1.395  lr 3.00e-04  104,387 tok/s  1397s
+step   8971/8972  train 1.375  val 1.399  lr 3.00e-04  104,355 tok/s  1409s
+
+완료: 23.5분, best val loss 1.3867
+최종 샘플:
+Once upon a time, there was a little girl named Daisy. Daisy loved to go to the store with her mom. They would buy many things. One day, Daisy's mom asked her to hold a book while she went to the store. Daisy was very happy to help. The next day, Daisy and her mom went to the store. Daisy held the book tight and said, "I want to keep this book safe." Her mom smiled and said, "Thank you, Daisy. That is a nice book." At the store, Daisy saw a distant toy. She asked her mom, "Is this here
