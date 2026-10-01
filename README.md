@@ -60,3 +60,9 @@ CUDA 용 torch 설치는 `install_torch.sh` 를 참고하세요(cu126 기준).
 - `STATUS.md` — 만든 것, 실험 결과와 결론, 다음에 할 수 있는 것
 - `CURRICULUM.md` — 단계별 전체 계획과 용어 정리
 - `REPORT.md`, `artifact.html` — A/B/C 에 같은 문장 5개를 넣어 비교한 결과
+
+## 라이선스
+
+- 코드: MIT (`LICENSE`)
+- 학습 데이터 TinyStories 는 [CDLA-Sharing-1.0](https://cdla.dev/sharing-1-0/) 입니다.
+  이 데이터로 학습한 가중치(`runs/*/*.pt`)와 생성 샘플을 다시 배포할 때는 그 조건도 함께 확인하세요.
